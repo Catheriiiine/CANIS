@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from load_data import load_data
 
 
-def bar_plot(df, col_index):
+def bar_plot_ind(df, col_index):
     column_name = df.columns[col_index]
     # Calculate the frequency of each language
     values_counts_sorted = df[column_name].value_counts().sort_values(ascending=False)
@@ -31,9 +31,9 @@ def bar_plot(df, col_index):
 
 if __name__ == "__main__":
     df = load_data()
-    bar_plot(df, 2)
-    bar_plot(df, 3)
-    bar_plot(df, 4)
-    bar_plot(df, 6)
+    bar_plot_ind(df, 2)
+    bar_plot_ind(df, 3)
+    bar_plot_ind(df, 4)
+    bar_plot_ind(df, 6)
 
 

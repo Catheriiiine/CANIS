@@ -1,5 +1,5 @@
 """
-This file contains the function that loads the data using Pandas
+This file contains the function that loads the data using Pandas.
 Author: Yinuo Zhao
 Data: Nov 17, 2023
 

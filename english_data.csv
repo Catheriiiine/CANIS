@@ -1,0 +1,58 @@
+Country,Code,Geographic region,Population,Official language,Primary language
+Antigua and Barbuda,ATG,Caribbean,85000,Yes,Yes
+The Bahamas,BHS,Caribbean,331000,Yes,Yes
+Barbados,BRB,Caribbean,294000,Yes,Yes
+Belize,BLZ,Central America,288000,Yes,Yes
+Botswana,BWA,Africa,1882000,Yes,Yes
+Burundi,BDI,Africa,10114505,Yes,No
+Cameroon,CMR,Africa,22534532,Yes,No
+Canada,CAN,North America,38048738,Yes,Yes
+Dominica,DMA,Caribbean,73000,Yes,Yes
+Eswatini,SWZ,Africa,1141000,Yes,No
+Fiji,FJI,Oceania,828000,Yes,Yes
+The Gambia,GMB,Africa,1709000,Yes,Yes
+Ghana,GHA,Africa,27000000,Yes,Yes
+Grenada,GRD,Caribbean,111000,Yes,Yes
+Guyana,GUY,South America,738000,Yes,Yes
+India,IND,Asia,1393500000,Yes,No
+Ireland,IRL,Europe,4900000,Yes,Yes
+Jamaica,JAM,Caribbean,2714000,Yes,Yes
+Kenya,KEN,Africa,45010056,Yes,Yes
+Kiribati,KIR,Oceania,95000,Yes,No
+Lesotho,LSO,Africa,2008000,Yes,No
+Liberia,LBR,Africa,3750000,Yes,Yes
+Malawi,MWI,Africa,16407000,Yes,Yes
+Malta,MLT,Europe,430000,Yes,No
+Marshall Islands,MHL,Oceania,59000,Yes,No
+Micronesia,FSM,Oceania,110000,Yes,Yes
+Namibia,NAM,Africa,2074000,Yes,No
+Nauru,NRU,Oceania,10000,Yes,No
+Nigeria,NGA,Africa,182202000,Yes,Yes
+Pakistan,PAK,Asia,212742631,Yes,No
+Palau,PLW,Oceania,20000,Yes,No
+Papua New Guinea,PNG,Oceania,7059653,Yes,Yes
+Philippines,PHL,Asia,110864327,Yes,No
+Rwanda,RWA,Africa,13240439,Yes,No
+Saint Kitts and Nevis,KNA,Caribbean,50000,Yes,Yes
+Saint Lucia,LCA,Caribbean,165000,Yes,Yes
+Saint Vincent and the Grenadines,VCT,Caribbean,120000,Yes,Yes
+Samoa,WSM,Oceania,188000,Yes,No
+Seychelles,SYC,Africa / Indian Ocean,87000,Yes,No
+Sierra Leone,SLE,Africa,6190280,Yes,Yes
+Singapore,SGP,Asia,5469700,Yes,Yes
+Solomon Islands,SLB,Oceania,507000,Yes,Yes
+South Africa,ZAF,Africa,54956900,Yes,Yes
+South Sudan,SSD,Africa,12340000,Yes,Yes
+Sudan,SDN,Africa,40235000,Yes,No
+Tanzania,TZA,Africa,51820000,Yes,No
+Tonga,TON,Oceania,100000,Yes,No
+Trinidad and Tobago,TTO,Caribbean,1333000,Yes,Yes
+Tuvalu,TUV,Oceania,11000,Yes,No
+Uganda,UGA,Africa,47053690,Yes,No
+Vanuatu,VUT,Oceania,226000,Yes,No
+Zambia,ZMB,Africa,16212000,Yes,Yes
+Zimbabwe,ZWE,Africa,13061239,Yes,No
+Australia,AUS,Oceania,26461166,No,Yes
+New Zealand,NZL,Oceania,5109702,No,Yes
+United Kingdom,GBR,Europe,68138484,No,Yes
+United States,USA,North America,339665118,No,Yes

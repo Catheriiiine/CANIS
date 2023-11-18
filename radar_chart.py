@@ -1,3 +1,10 @@
+"""
+This file contains the function that draws radar chart.
+Author: Matplotlib Official
+Data: Nov 17, 2023
+
+Disclaimer: this file is for the purpose of the 2023 CANIS Hackathon only.
+"""
 import matplotlib.pyplot as plt
 import numpy as np
 

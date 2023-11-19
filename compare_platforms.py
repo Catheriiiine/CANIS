@@ -203,11 +203,11 @@ def main():
     """
     platforms = ['Twitter', 'Facebook', 'Instagram', 'Thread', 'Youtube', 'Tiktok']
     df = load_data()
-    # full_pie(df, platforms)
-    # zoomed_pie(df)
-    # most_followed_accounts_on_platforms(df, platforms)
-    # platform_radar(platforms)
-    # account_platform_count(df, platforms)
+    full_pie(df, platforms)
+    zoomed_pie(df)
+    most_followed_accounts_on_platforms(df, platforms)
+    platform_radar(platforms)
+    account_platform_count(df, platforms)
 
 
 if __name__ == "__main__":

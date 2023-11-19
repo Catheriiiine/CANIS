@@ -1,4 +1,3 @@
-
 import pandas as pd
 import openpyxl
 import matplotlib.pyplot as plt
@@ -7,9 +6,18 @@ from load_data import load_data
 
 def bar_plot_ind(df, col_index):
     column_name = df.columns[col_index]
+    postfix = "\n"
+
+    def add_postfix(sentence):
+        words = sentence.split()
+        postfixed_words = [postfix + word for word in words]
+        return ' '.join(postfixed_words)
     # Calculate the frequency of each language
-    values_counts_sorted = df[column_name].value_counts().sort_values(ascending=False)
+    values_counts_sorted = df[column_name].apply(add_postfix).value_counts().sort_values(ascending=False)
     top_12 = values_counts_sorted.head(12)
+    print(top_12)
+
+
     # Sum the remaining values to create an 'Others' category
     others_sum = values_counts_sorted[12:].sum()
 
@@ -24,7 +32,7 @@ def bar_plot_ind(df, col_index):
     plt.title(column_name + " Distribution")
     plt.xlabel(column_name)
     plt.ylabel('Number')
-    plt.xticks(rotation=45)  # Rotates the language names for better readability
+    plt.xticks(rotation=0)  # Rotates the language names for better readability
     plt.tight_layout()  # Adjust the plot to ensure everything fits without overlapping
     plt.show()
 
@@ -35,5 +43,3 @@ if __name__ == "__main__":
     bar_plot_ind(df, 3)
     bar_plot_ind(df, 4)
     bar_plot_ind(df, 6)
-
-

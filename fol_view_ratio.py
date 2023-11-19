@@ -23,15 +23,22 @@ def top12_followers(df):
 
 
 def bar_plot_ratio(df):
-    plt.bar(df['X_account'], df['fol_view_ratio'], color="green")
+    postfix = "\n"
+
+    def add_postfix(sentence):
+        words = sentence.split()
+        postfixed_words = [postfix + word for word in words]
+        return ' '.join(postfixed_words)
+    plt.bar(df['X_account'].apply(add_postfix), df['fol_view_ratio'], color="green")
     plt.title("follow-view ratio")
     plt.xlabel("Account")
     plt.ylabel('ratio')
-    plt.xticks(rotation=45)  # Rotates the language names for better readability
+    plt.xticks(rotation=45)  # Rotates the names for better readability
     plt.tight_layout()  # Adjust the plot to ensure everything fits without overlapping
     plt.show()
 
 
 if __name__ == "__main__":
     df = pd.read_excel("fol_view_data.xlsx")
+
     bar_plot_ratio(df)

@@ -10,25 +10,35 @@ def bar_plot_ind(df, col_index):
 
     def add_postfix(sentence):
         words = sentence.split()
-        postfixed_words = [postfix + word for word in words]
+        postfixed_words = [word + postfix for word in words]
         return ' '.join(postfixed_words)
     # Calculate the frequency of each language
     values_counts_sorted = df[column_name].apply(add_postfix).value_counts().sort_values(ascending=False)
     top_12 = values_counts_sorted.head(12)
-    print(top_12)
-
+    # print(top_12)
 
     # Sum the remaining values to create an 'Others' category
     others_sum = values_counts_sorted[12:].sum()
+    total_sum = values_counts_sorted.sum()
 
     # Create a Series for 'Others'
     others_series = pd.Series({'Others': others_sum})
 
     # Use pd.concat to combine the top 12 values with the 'Others' Series
     top_12_with_others = pd.concat([top_12, others_series])
-    # Create a bar plot
+
+    percentages = []
+    for value in top_12_with_others:
+        per = round(value * 100 / total_sum, 2)
+        percentages.append(str(per) + "%")
+
+
+# Create a bar plot
     plt.figure(figsize=(15, 10))
-    top_12_with_others.plot(kind='bar')
+    graph = top_12_with_others.plot(kind='bar')
+    for i, per in enumerate(percentages):
+        graph.text(i, top_12_with_others[i], per, ha='center', va='bottom')
+
     plt.title(column_name + " Distribution")
     plt.xlabel(column_name)
     plt.ylabel('Number')

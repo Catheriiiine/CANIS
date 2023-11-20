@@ -1,4 +1,5 @@
-This project was done for the 2023 CANIS Hackathon: Data Visualization and Foreign Interference
+This project was done for the 2023 CANIS Hackathon: Data Visualization and Foreign Interference.
+Full Presentation -> https://docs.google.com/presentation/d/1azn75D5y0-kI8STczfFRVHUXfXyJR0dxYJrpbIDZ118/edit?usp=sharing
 
 ## Inspiration
 There are growing concerns about foreign interference emerging as the most significant strategic threat to Canada's national security. Social media has become one of the easiest and quickest ways for content to be shared worldwide. Therefore, a deeper examination of major content outlets across various social media platforms can provide valuable insights into the extent of this influence. It's important to note that all the data in this dataset pertains exclusively to China, so any conclusions drawn may not be applicable to other countries.

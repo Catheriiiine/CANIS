@@ -1,12 +1,9 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping ext="xlsx" type="MyNative" />
-      <mapping ext="xls" type="MyNative" />
-      <removed_mapping ext="xlsx" type="Native" />
-      <removed_mapping ext="xls" type="Native" />
       <removed_mapping ext="txt" type="PLAIN_TEXT" />
-      <mapping ext="txt" type="requirements.txt" />
+      <removed_mapping ext="xls" type="Native" />
+      <removed_mapping ext="xlsx" type="Native" />
     </extensionMap>
   </component>
 </application>
